@@ -1,13 +1,7 @@
-use_frameworks!
+# use_frameworks!
 
 platform :ios, '8.0'
 
 target 'MKHotfix_Example' do
   pod 'MKHotfix', :path => '../'
-
-  target 'MKHotfix_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
