@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
-轻量JS热修工具
+轻量iOS(ObjC)热修工具
 
 ## Installation
 
