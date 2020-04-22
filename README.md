@@ -1,6 +1,6 @@
 # MKHotfix
 
-![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
 轻量JS热修工具
 
@@ -8,7 +8,10 @@
 
 ```ruby
 pod 'MKHotfix'
+pod 'Aspects' 
 ```
+* Aspects库是依赖
+
 
 ## Example
 
@@ -54,3 +57,8 @@ fixInstanceMethodReplace("TestClass", "testIntInOut:", function(instance, origin
 └────── js
         └── hotfix.js : 修复脚本
 ```
+
+#### 下发热修脚本
+
+* 针对不同的App版本和系统版本由自己的服务端下发
+* Bugly下发

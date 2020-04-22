@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKHotfix'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of MKHotfix.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,5 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MKHotfix/Classes/**/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'MKHotfix' => ['MKHotfix/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Aspects'
 end

@@ -5,4 +5,5 @@ platform :ios, '8.0'
 
 target 'MKHotfix_Example' do
   pod 'MKHotfix', :path => '../'
+  pod 'Aspects'
 end
